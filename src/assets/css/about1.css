@@ -1,0 +1,277 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+#header
+{
+    display:grid;
+    grid-template-columns: 33.33% 66.66%;
+    background-color: white;
+    padding: 32px 32px;
+    margin: 0 auto;
+    color: black;
+
+
+}
+
+.option_link
+
+{
+    
+    display: inline-block;
+    
+    
+}
+
+#Linkset1
+
+{
+
+    font-size: 18px;
+    font-family: Esteban;
+    
+    
+}
+
+#Linkset1 a
+{
+
+    color:black;
+    font-size: 18px;
+    font-family: Esteban;
+    
+}
+
+
+
+a
+
+{
+    text-decoration: none;    
+}
+
+#header> div:nth-child(1)
+
+{
+
+    
+    margin-left: 4%;
+    
+}
+
+
+#header> div:nth-child(2)
+
+{
+
+   font-family: 'Poppins', sans-serif;
+   
+   margin: -2%;
+   
+   
+    
+} 
+.join
+
+{
+   
+    background-color: black;
+    padding: 12px 21px;
+    margin-left: 400px;
+    font-size: calc(0vh + 1rem);
+    color: white;
+}
+
+.irv
+{
+
+    color: black;
+    padding-right: 0px;
+    font-size: 30px;
+    font-family:'Poppins', sans-serif;
+    margin: 0 auto;
+   
+  
+    
+}
+
+.irv1
+
+{
+
+   margin-left: 0%;
+   align-items: center;
+    
+}
+
+#div2 h1
+{
+
+    padding-left: 90px;
+}
+
+
+.option_link1
+
+{
+    display: inline-block;
+   
+}
+
+#sec1
+
+{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 100px;
+    
+}
+
+#sec1 h2
+{
+    font-size: 45px;
+
+}
+
+#sec1 p
+{
+font-size: 24px;
+font-family: 'Esteban', serif;
+
+}
+
+#sec1 > div:nth-child(2)
+{
+
+    margin: 0% 6%;
+    line-height: 2.5rem;
+}
+
+#sec1 > div:nth-child(1)
+{
+
+    margin-left: 10%;
+}
+
+#sec2
+{
+    display: grid;
+    grid-template-columns: 43.5% 20% 30%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: 'Esteban', serif;
+}
+
+#sec2 p
+{
+    line-height: 2.5rem;
+    font-family: Esteban;
+    font-size: 18px;
+    
+}
+
+#sec3
+{
+
+   /* background-image: url(/img/aboutbg.png);*/
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+}
+
+#sec4
+{
+    display: grid;
+    grid-template-columns: 43.5% 25% 30%;
+    padding-top: 90px;
+    font-family: Esteban;
+    line-height: 2.5rem;
+    padding-bottom: 90px;
+}
+
+#sec4 h2
+{
+
+    font-size: 45px;
+    margin-left: 10%;
+}
+
+#sec4 li
+{
+
+    font-size: 18px;
+    font-family: Esteban;
+}
+
+
+.footer h2
+
+{
+
+    font-size: 45px;
+}
+
+.footer
+{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+
+}
+
+.footer> div:nth-child(2)
+{
+
+text-align: right;
+
+}
+
+.footer> div:nth-child(1)
+{
+
+    font-family: 'Esteban', serif;
+    margin-left: 6.5%;
+
+}
+
+.f2 a
+{
+    
+    background-color: rgb(241, 166, 56);
+    color: black;
+    font-size: 20px;
+    padding: 18px 30px;
+    margin-right: 10%;
+}
+
+.links a
+{
+    color: white;
+    font-size: 18px;
+}
+
+.link2 a
+{
+
+    color:rgb(241, 166, 56);
+    text-decoration: underline;
+    font-family: 'Esteban', serif;
+}
+
+.footer p
+{
+    font-family: 'Esteban', serif;
+}

@@ -1,0 +1,419 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   /* background-color: black;*/
+    
+    
+}
+
+#header
+{
+    display:grid;
+    grid-template-columns: 33.33% 66.66%;
+    background-color: whitesmoke;
+    padding: 32px 32px;
+    margin: 0 auto;
+    color: black;
+    
+
+
+}
+
+.option_link
+
+{
+    
+    display: inline-block;
+    
+    
+}
+
+#Linkset1
+
+{
+
+    font-size: 18px;
+    font-family: Esteban;
+    
+    
+}
+
+#Linkset1 a
+{
+
+    color:black;
+    font-size: 18px;
+    font-family: Esteban;
+    
+}
+
+
+
+a
+
+{
+    text-decoration: none;    
+}
+
+#header> div:nth-child(1)
+
+{
+
+    
+    margin-left: 4%;
+    
+}
+
+
+#header> div:nth-child(2)
+
+{
+
+   font-family: 'Poppins', sans-serif;
+   
+   margin: -2%;
+   
+   
+    
+} 
+.join
+
+{
+   
+    background-color: black;
+    padding: 12px 21px;
+    margin-left: 400px;
+    font-size: calc(0vh + 1rem);
+    color: white;
+}
+
+.irv
+{
+
+    color: black;
+    padding-right: 0px;
+    font-size: 30px;
+    font-family:'Poppins', sans-serif;
+    margin: 0 auto;
+   
+  
+    
+}
+
+.irv1
+
+{
+
+   margin-left: 0%;
+   align-items: center;
+    
+}
+
+#div2 h1
+{
+
+    padding-left: 90px;
+}
+
+.join1
+{
+background-color: white;
+
+}
+.option_link1
+
+{
+    display: inline-block;
+   
+}
+
+#bg
+{
+
+    background-image: url(../img/bak2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:555px;
+    width: 0 auto;
+    color: white;
+    font-size: 61px;
+    
+}
+
+#bg h1
+
+{
+   
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    
+    
+}
+
+#bg p
+{
+
+text-align: center;
+font-family: 'Esteban', serif;
+font-size: 25px;
+margin-top: 3%;
+color: white;
+background-color: none;
+
+
+}
+
+/* font-family:'Poppins', sans-serif;
+margin: 2rem 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    
+    letter-spacing: 0em;
+    text-transform: none;*/
+
+
+#grid
+{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+
+}
+
+#grid> div:nth-child(1)
+
+{
+
+    /*background-image: url(/img/img2.jpg);*/
+    height: 465px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 6%;
+
+
+}
+
+#grid> div:nth-child(2)
+
+{
+
+   /* background-image: url(/img/img3.jpg) ;*/
+    height: 465px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 6%;
+
+
+}
+
+#grid> div:nth-child(3)
+
+{
+
+    /*background-image: url(/img/img4.jpg) ;*/
+    height: 465px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 6%;
+
+
+}
+
+#grid> div:nth-child(4)
+
+{
+
+    background-image: url(../img/guyhome.jpg);
+    height: 465px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-right: 6%;
+
+
+}
+
+.class
+{
+    font-size: 40px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: black;
+    color: white;
+}
+
+#grid h3
+
+{
+
+    font-size: 35px;
+    padding-top: 30%;
+}
+
+#grid p
+
+{
+
+    font-family: 'Esteban', serif;
+    margin-top: 3%;
+    font-size: 20px;
+
+}
+
+
+.seeac a
+
+{
+
+    background-color: rgb(241, 166, 56);
+    color: black;
+    font-size: 20px;
+    
+    padding: 18px 30px;
+
+
+
+}
+
+
+.seeac 
+
+{
+
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 164px;
+    background-color: black;
+    
+
+
+}
+
+.about
+{
+
+    text-align: center;
+    line-height: 2.7rem;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    margin: 0% 15%;
+}
+
+.about1
+{
+    font-size: 18px;
+    font-family: 'Esteban', serif;
+}
+
+.about p
+{
+    font-size: 24px;
+    font-family: 'Esteban', serif;
+}
+
+.secbg
+{
+
+    /*background-image: url(/img/img5.jpg);*/
+    height: 440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    
+}
+
+.secbg h2
+{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 120px;
+    margin: 0% 25%;
+}
+
+.secbg p
+{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 16px;
+    font-family: 'Esteban', serif;
+
+}
+
+.footer h2
+
+{
+
+    font-size: 45px;
+}
+
+.footer
+{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+
+}
+
+.footer> div:nth-child(2)
+{
+
+text-align: right;
+
+}
+
+.footer> div:nth-child(1)
+{
+
+    font-family: 'Esteban', serif;
+    margin-left: 6.5%;
+
+}
+
+.f2 a
+{
+    
+    background-color: rgb(241, 166, 56);
+    color: black;
+    font-size: 20px;
+    padding: 18px 30px;
+    margin-right: 10%;
+}
+
+.links a
+{
+    color: white;
+    font-size: 18px;
+}
+
+.link2 a
+{
+
+    color:rgb(241, 166, 56);
+    text-decoration: underline;
+    font-family: 'Esteban', serif;
+}
+
+.footer p
+{
+    font-family: 'Esteban', serif;
+}
+
+/*display: block;*/
