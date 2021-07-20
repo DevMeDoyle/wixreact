@@ -7,7 +7,7 @@ const Header = () => {
         <div id="Linkset1">
             <nav>
                 <ul>
-                    <li className="option_link"> <a className="About"  href="/"> About </a> </li> &nbsp;&nbsp;
+                    <li className="option_link"> <a className="About"  href="/about"> About </a> </li> &nbsp;&nbsp;
                     <li className="option_link"> <a  href="/"> Classes </a> </li> &nbsp;&nbsp;
                     <li className="option_link"> <a  href="/"> Contact </a> </li> &nbsp;&nbsp;
 
@@ -33,6 +33,8 @@ const Header = () => {
          
 
     </header>
+
+
 
     )
 }

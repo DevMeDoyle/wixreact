@@ -124,7 +124,7 @@ a
    
 }
 
-#sec1
+#secabt1
 
 {
     display: grid;
@@ -133,27 +133,27 @@ a
     
 }
 
-#sec1 h2
+#secabt1 h2
 {
     font-size: 45px;
 
 }
 
-#sec1 p
+#secabt1 p
 {
 font-size: 24px;
 font-family: 'Esteban', serif;
 
 }
 
-#sec1 > div:nth-child(2)
+#secabt1 > div:nth-child(2)
 {
 
     margin: 0% 6%;
     line-height: 2.5rem;
 }
 
-#sec1 > div:nth-child(1)
+#secabt1 > div:nth-child(1)
 {
 
     margin-left: 10%;
@@ -179,7 +179,7 @@ font-family: 'Esteban', serif;
 #sec3
 {
 
-   /* background-image: url(/img/aboutbg.png);*/
+    background-image: url(../img/aboutbg.png);
     height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
