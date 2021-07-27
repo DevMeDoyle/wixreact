@@ -160,3 +160,80 @@ text-align: right;
 {
     font-family: 'Esteban', serif;
 }
+
+
+
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+ 
+
+#secabt1
+
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 50px;
+    
+}
+
+#secabt1 h2
+
+{
+    
+    font-size: 35px;
+    text-align: center;
+    
+}
+
+#secabt1 
+
+{
+    
+    font-size: 15px;
+    text-align: center;
+    
+}
+
+#sec2{
+
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-family: 'Esteban', serif;
+    grid-template-columns: 1fr;
+    text-align: center;
+    
+    
+}
+
+  #sec3{
+
+    display: none;
+  }
+
+  #sec4
+  {
+    display: inline-block;
+    grid-template-columns: 1fr;
+    font-size: 12px;
+    margin-left: 20%;
+  }
+
+  #sec4 li
+  {
+    
+    font-size: 15px;
+    text-align: right;
+  }
+
+  #sec4 h2
+  {
+    
+    font-size: 35px;
+    text-align: right;
+  }
+}
