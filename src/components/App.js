@@ -1,6 +1,8 @@
 import React from 'react'
 import Home from '../pages/Home';
 import About from '../pages/About';
+import Contact from '../pages/Contact';
+import Form from '../components/Form';
 
 import {
   BrowserRouter as Router,
@@ -13,6 +15,8 @@ import "../assets/css/home1.css";
 import "../assets/css/contact1.css";
 import "../assets/css/about1.css";
 
+
+
 const App = () => {
   return (
     
@@ -24,7 +28,8 @@ const App = () => {
 
           </Route>
 
-          <Route path="/classes">
+          <Route path="/contact">
+            <Contact/>
 
           </Route>
 

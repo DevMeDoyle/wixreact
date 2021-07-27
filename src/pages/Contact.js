@@ -1,53 +1,50 @@
 import React from 'react'
+import Header from '../components/Header';
+import Footer from "../components/Footer";
+import Form from '../components/Form';
 
 const Contact = () => {
     return (
-        <div>
+
+        
+            <>
             <Header/>
+            <section id="seccontact1">
 
-            <section id="sectac1">
+                <div>
+                    <h2>Please feel free to contact us with any questions.</h2>
 
-<div>
-    <h2>Please feel free to contact us with any questions.</h2>
+                        <div className="special">
+                            <h4>Phone</h4>
+                    <       p>(555) 555-5555</p><br/>
 
-    <div class="special">
-        <h4>Phone</h4>
-        <p>(555) 555-5555</p><br>
+                            <h4>E-mail</h4>
+                            <p>email@example.com</p>
 
-        <h4>E-mail</h4>
-        <p>email@example.com</p>
-    </div>
-</div>
-<div>
-
-    <form/>
-          
-        <p/>Name*
-        <input type="text" placeholder="">
+                        </div>
         
-        <input type="text" placeholder=""><br/><br/>
-        
-        <p>Email*</p>
-        <input type="email" placeholder=""><br/><br>
+                </div>
 
-        <p>Message.*</p>
-        <input type="message" placeholder=""><br/><br/>
+                
+                    
+                   <Form/>
 
-        <button class="button">Submit</button>
+                    
 
-
+                
 
 
-    </form>
-
-</div>
-
-</section>
 
 
+
+
+            </section>
 
             <Footer/>
-        </div>
+
+            </>
+
+        
     )
 }
 

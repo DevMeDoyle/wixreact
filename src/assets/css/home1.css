@@ -9,125 +9,96 @@
     
 }
 
+a{
+    text-decoration: none;
+}
+
+
 #header
 {
     display:grid;
-    grid-template-columns: 33.33% 66.66%;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: whitesmoke;
     padding: 32px 32px;
     margin: 0 auto;
     color: black;
     
-
-
 }
 
 .option_link
-
 {
-    
-    display: inline-block;
-    
-    
+        display: inline-block;
+}
+
+.irv1{
+
+    text-align: center;
+    margin-left: 0%;
 }
 
 #Linkset1
-
 {
-
     font-size: 18px;
-    font-family: Esteban;
-    
-    
+    font-family: Esteban;    
 }
 
 #Linkset1 a
 {
-
     color:black;
     font-size: 18px;
-    font-family: Esteban;
-    
+    font-family: Esteban;   
 }
 
 
-
-a
-
-{
-    text-decoration: none;    
-}
 
 #header> div:nth-child(1)
-
 {
-
-    
-    margin-left: 4%;
-    
+    margin-left: 4%;  
 }
 
 
 #header> div:nth-child(2)
 
 {
-
    font-family: 'Poppins', sans-serif;
-   
-   margin: -2%;
-   
-   
-    
+    margin: -2%;     
 } 
-.join
 
-{
-   
-    background-color: black;
-    padding: 12px 21px;
-    margin-left: 400px;
-    font-size: calc(0vh + 1rem);
-    color: white;
-}
 
 .irv
 {
-
     color: black;
     padding-right: 0px;
     font-size: 30px;
     font-family:'Poppins', sans-serif;
     margin: 0 auto;
-   
-  
-    
+    font-weight: 0;
 }
 
-.irv1
-
-{
-
-   margin-left: 0%;
-   align-items: center;
-    
-}
 
 #div2 h1
 {
-
     padding-left: 90px;
 }
 
-.join1
+
+
+.join
 {
-background-color: white;
+    background-color: black;
+    padding: 12px 21px;
+   font-size: calc(0vh + 1rem);
+    color: white;
+    
+
+  
 
 }
-.option_link1
 
-{
-    display: inline-block;
+.join1 {
+
    
+   text-align: right;
 }
 
 #bg
@@ -140,18 +111,18 @@ background-color: white;
     height:555px;
     width: 0 auto;
     color: white;
-    font-size: 61px;
-    
+    padding-top: 184px;
+        
 }
 
 #bg h1
-
 {
    
     text-align: center;
-    font-family:'Poppins', sans-serif;
-    
-    
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    white-space: pre-wrap;
+  
 }
 
 #bg p
@@ -186,25 +157,19 @@ margin: 2rem 0;
     color: white;
     text-align: center;
     
-
 }
 
 #grid> div:nth-child(1)
-
 {
-
     background-image: url(../img/img2.jpg);
     height: 465px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     margin-left: 6%;
-
-
 }
 
 #grid> div:nth-child(2)
-
 {
 
     background-image: url(../img/img3.jpg);
@@ -214,13 +179,11 @@ margin: 2rem 0;
     background-position: center center;
     margin-right: 6%;
 
-
 }
 
 #grid> div:nth-child(3)
 
 {
-
     background-image: url(../img/img4.jpg); 
     height: 465px;
     background-repeat: no-repeat;
@@ -228,21 +191,17 @@ margin: 2rem 0;
     background-position: center center;
     margin-left: 6%;
 
-
 }
 
 #grid> div:nth-child(4)
 
 {
-
     background-image: url(../img/guyhome.jpg);
     height: 465px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     margin-right: 6%;
-
-
 }
 
 .class
@@ -255,7 +214,6 @@ margin: 2rem 0;
 }
 
 #grid h3
-
 {
 
     font-size: 35px;
@@ -263,7 +221,6 @@ margin: 2rem 0;
 }
 
 #grid p
-
 {
 
     font-family: 'Esteban', serif;
@@ -274,30 +231,23 @@ margin: 2rem 0;
 
 
 .seeac a
-
 {
 
     background-color: rgb(241, 166, 56);
     color: black;
     font-size: 20px;
-    
     padding: 18px 30px;
-
-
 
 }
 
 
 .seeac 
-
 {
 
     text-align: center;
     padding-top: 128px;
     padding-bottom: 164px;
     background-color: black;
-    
-
 
 }
 
@@ -333,6 +283,7 @@ margin: 2rem 0;
     background-position: center center;
     color: white;
     
+    
 }
 
 .secbg h2
@@ -363,7 +314,7 @@ margin: 2rem 0;
 {
 
     display:grid;
-    grid-template-columns: 1fr 1fr;;
+    grid-template-columns: 1fr 1fr;
     background-color: black;
     color: white;
     padding-top: 100px;
@@ -417,3 +368,138 @@ text-align: right;
 }
 
 /*display: block;*/
+
+
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {  }
+
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {  }
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { }
+
+
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+
+
+    #grid, #bg{
+
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    
+    #header{
+    
+        grid-template-columns: 1fr;
+        justify-self: center;
+        text-align: center;
+        
+    }
+    
+    footer{
+        grid-template-columns: 1fr;
+        height: auto;
+    
+    }
+    
+    
+    .footer h2
+     {
+    
+        font-size: 10px;
+    }
+    
+    
+    .secbg
+    {
+    
+        background-image: url(../img/img5.jpg);
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: white;
+        
+        
+    }
+    
+    .secbg h2
+    {
+        
+        font-size: 15px;
+        
+        
+    }
+    
+    .secbg p
+    {
+        
+        font-size: 9px;
+        padding-top: 16px;
+       ;
+    
+    }
+    
+    
+    .join
+    
+    {
+       
+        background-color: black;
+       padding: 10px 5px;
+        margin: auto;
+        
+    }
+    .irv
+{
+    color: black;
+    padding: auto;
+    font-size: 30px;
+    font-family:'Poppins', sans-serif;
+    margin: auto;
+    font-weight: 0;
+}
+
+    .option_link
+
+{
+    
+    display: inline-block;
+    margin-left: 10%;
+    
+}
+
+.join1 {
+
+   
+    text-align: center;
+    margin-top: 10%;
+ }
+
+ .class
+{
+    font-size: 30px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#bg h1
+{
+   
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    white-space: pre-wrap;
+  
+}
+
+  }
+
