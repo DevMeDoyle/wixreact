@@ -1,12 +1,18 @@
 import React from 'react'
 
-import {useState} from "react";
+
+
 
 const Form = () => {
     
     return (
+
+        <>
         <div>
-            <form>
+
+                
+
+                        <form classNmae="form">
                
                    
                         <p className="formpara">Name*</p>
@@ -38,6 +44,9 @@ const Form = () => {
 
             </form>
         </div>
+
+        
+        </>
     )
 }
 

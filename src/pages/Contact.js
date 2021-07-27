@@ -6,45 +6,34 @@ import Form from '../components/Form';
 const Contact = () => {
     return (
 
-        
-            <>
+        <>
+    
             <Header/>
-            <section id="seccontact1">
 
-                <div>
+                    <section id="seccontact1">
+
+                    <div className="contact-div">
                     <h2>Please feel free to contact us with any questions.</h2>
 
-                        <div className="special">
-                            <h4>Phone</h4>
-                    <       p>(555) 555-5555</p><br/>
+                    <div className="special">
 
-                            <h4>E-mail</h4>
-                            <p>email@example.com</p>
+                    <h4>Phone</h4>
+                  <p>(555) 555-5555</p><br/>
 
-                        </div>
+                    <h4>E-mail</h4>
+                    <p>email@example.com</p>
+
+        </div>
+
+</div>
+        <Form/>
         
-                </div>
 
+        </section>
                 
-                    
-                   <Form/>
-
-                    
-
-                
-
-
-
-
-
-
-            </section>
-
-            <Footer/>
-
-            </>
-
-        
+        <Footer/>
+            
+        </>
     )
 }
 

@@ -21,7 +21,7 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     border: none;
-    background-color: pink;
+    
   }
   
   input[type=email] {
@@ -67,8 +67,6 @@ input[type=text] {
     background-size: cover;
     background-position: center center;
     
-   
-
   }
 
   #seccontact1 h2
@@ -184,7 +182,7 @@ text-align: right;
 
 .input1{
 
-background-origin: pink;
+background-color: white;
 }
 
 .formpara{
@@ -196,4 +194,66 @@ background-origin: pink;
 {
     display:grid;
     grid-template-columns: 1fr 1.4fr;
+}
+
+
+@media (max-width: 575.98px) {
+
+
+  #seccontact1{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 150%;
+  }
+
+  #seccontact1 > div:nth-child(1)
+  {
+    padding-top: 0px;
+
+ }
+
+ .contact-div
+ {
+   margin-bottom: 50%;
+   
+ }
+
+
+ 
+input[type=text] {
+  width: 40%;
+  padding: 12px 38px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: grey;
+}
+
+input[type=email] {
+  width: 81%;
+  padding: 12px 38px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color:  grey;
+}
+
+input[type=message] {
+  width: 81.3%;
+  padding: 30px 60px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: grey;
+  
+}
+
+.formpara{
+
+  color: black;
+}
+
+
+
 }
